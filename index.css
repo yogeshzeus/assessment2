@@ -1,0 +1,95 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 5px solid yellowgreen;
+    background-image: url('https://upserve.com/media/sites/2/Restaurant-Decor-Blog.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.class{
+    background:black;
+    border: 5px groove red;
+    border-radius: 10px;
+    color: white;
+    font-style: italic;
+    height: 50px;
+    width: 200px;
+    
+}
+.parent{
+    display: flex;
+}
+.class1{
+    font-size: 20px;
+    padding: 50px 40px 80px 40px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 25px;
+}
+.class2{
+    font-size: 20px;
+    margin: 40px 200px 20px 200px;
+    padding: 20px 100px 2px 100px ;
+    border-radius: 25px;
+}
+.class3{
+    font-size: 20px;
+    padding: 50px 40px 80px 40px;
+    margin: 20px 20px 20px 2px;
+    border-radius: 25px;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border: 5px groove darkgray;
+    background: aqua;
+    border-radius: 50%;
+    padding: 50px 30px 10px 25px;
+    margin-top: 200px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.forms{
+    border: 5px dashed red;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: whitesmoke;
+
+}
+.menu1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 40px 200px 20px 400px;
+    padding: 20px 100px 2px 170px ;
+    border-radius: 25px;
+    
+
+}
+.new{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+.menu{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+    text-align: center;
+    border: 3px green solid;
+    border-radius: 30px;
+    width: 300px;
+    background: cyan;
+    color: blue;
+}
